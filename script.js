@@ -94,17 +94,35 @@ if (lightboxOverlay) {
 
   galleryItems.forEach(item => {
     item.addEventListener('click', () => {
-      lightboxImg.innerHTML = item.querySelector('svg').outerHTML;
-      lightboxCaption.textContent = item.dataset.caption || '';
+      const img = item.querySelector('img');
+      if (img && lightboxImg) {
+        if (lightboxImg.tagName === 'IMG') {
+          lightboxImg.src = img.src;
+          lightboxImg.alt = img.alt || 'Portfolio Preview';
+        } else {
+          lightboxImg.innerHTML = `<img src="${img.src}" alt="${img.alt || 'Portfolio Preview'}" style="max-width:100%; height:auto;">`;
+        }
+      }
+      if (lightboxCaption) {
+        lightboxCaption.textContent = item.dataset.caption || '';
+      }
       lightboxOverlay.classList.add('open');
     });
   });
 
-  function closeLightbox() { lightboxOverlay.classList.remove('open'); }
-  lightboxClose.addEventListener('click', closeLightbox);
+  function closeLightbox() { 
+    lightboxOverlay.classList.remove('open');
+    if (lightboxImg && lightboxImg.tagName === 'IMG') {
+      lightboxImg.src = '';
+    }
+  }
+
+  if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+  
   lightboxOverlay.addEventListener('click', (e) => {
     if (e.target === lightboxOverlay) closeLightbox();
   });
+  
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeLightbox();
   });
