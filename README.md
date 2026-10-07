@@ -1,10 +1,12 @@
-# Lumen Studio — Photography Booking Website
+# Lumen Studio  Photography Booking Website
 
 **Inovegen Internship — Task 4: Final Project (Professional Responsive Web Application)**
 **Domain:** Web Development — Front-End
 **Author:** Laiba Aftab
 
-**Live demo:** _add your GitHub Pages link here after deploying_
+**Live demo:** _https://laibapafaftab-debug.github.io/lumen-studio-photography/_
+
+**Github repo:** -https://github.com/laibapafaftab-debug/lumen-studio-photography/-
 
 ## Concept
 
@@ -85,3 +87,19 @@ npx serve .
 - This is an original build — concept, copy, color system, and illustrations were created for this task rather than adapted from a template.
 - Images are custom inline SVG compositions rather than stock photos, kept visually consistent across the gallery.
 - Screenshots for desktop, tablet, and mobile are included in `/screenshots`, as required by the task deliverables.
+## Screenshots
+
+**Desktop**
+
+<img width="1573" height="772" alt="Screenshot 2026-10-07 211317" src="https://github.com/user-attachments/assets/e13319a7-096e-4f03-9ead-14e4f03a0977" />
+
+**Tablet**
+
+<img width="1036" height="709" alt="Screenshot 2026-10-07 211415" src="https://github.com/user-attachments/assets/0fb24d48-bff6-4a23-bdb8-de45ba57715a" />
+
+**Mobile**
+
+<img width="706" height="1419" alt="WhatsApp Image 2026-10-07 at 9 02 11 AM" src="https://github.com/user-attachments/assets/4c66718c-9520-4a14-ad67-9d58500bf1a8" />
+
+
+
