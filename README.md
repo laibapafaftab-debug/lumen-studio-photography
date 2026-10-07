@@ -6,7 +6,7 @@
 
 **Live demo:** _https://laibapafaftab-debug.github.io/lumen-studio-photography/_
 
-**Github repo:** -https://github.com/laibapafaftab-debug/lumen-studio-photography/-
+**Github repo:** https://github.com/laibapafaftab-debug/lumen-studio-photography/
 
 ## Concept
 
