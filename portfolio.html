@@ -9,6 +9,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<style>
+  .gallery-item{ padding:0; overflow:hidden; background:none; }
+  .gallery-item img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:transform 0.4s ease;
+  }
+  .gallery-item:hover img{ transform:scale(1.05); }
+</style>
 </head>
 <body>
 
@@ -52,31 +63,31 @@
 
     <div class="gallery-grid">
       <button class="gallery-item" data-category="wedding" data-caption="First look, Lahore — April">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#2A211B"/><circle cx="150" cy="150" r="60" fill="#D98E3F" opacity="0.8"/><rect x="90" y="230" width="120" height="10" rx="5" fill="#3E7F79"/></svg>
+        <img src="https://picsum.photos/seed/lumen-wedding1/300/375" alt="First look, Lahore — April" loading="lazy">
       </button>
       <button class="gallery-item" data-category="portrait" data-caption="Studio portrait series">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#241F1C"/><ellipse cx="150" cy="140" rx="50" ry="65" fill="#B3A99E" opacity="0.6"/></svg>
+        <img src="https://picsum.photos/seed/lumen-portrait1/300/375" alt="Studio portrait series" loading="lazy">
       </button>
       <button class="gallery-item" data-category="event" data-caption="Product launch, Karachi">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#2E2520"/><rect x="60" y="100" width="180" height="120" rx="8" fill="#3E7F79" opacity="0.7"/></svg>
+        <img src="https://picsum.photos/seed/lumen-event1/300/375" alt="Product launch, Karachi" loading="lazy">
       </button>
       <button class="gallery-item" data-category="wedding" data-caption="Reception details">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#271F19"/><circle cx="110" cy="130" r="30" fill="#D98E3F"/><circle cx="190" cy="180" r="20" fill="#D98E3F" opacity="0.6"/></svg>
+        <img src="https://picsum.photos/seed/lumen-wedding2/300/375" alt="Reception details" loading="lazy">
       </button>
       <button class="gallery-item" data-category="portrait" data-caption="Outdoor portrait, golden hour">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#2A2017"/><circle cx="150" cy="100" r="40" fill="#D98E3F" opacity="0.5"/><ellipse cx="150" cy="220" rx="70" ry="90" fill="#241F1C"/></svg>
+        <img src="https://picsum.photos/seed/lumen-portrait2/300/375" alt="Outdoor portrait, golden hour" loading="lazy">
       </button>
       <button class="gallery-item" data-category="event" data-caption="Conference keynote">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#231D18"/><rect x="40" y="260" width="220" height="8" fill="#3E7F79"/><rect x="100" y="80" width="100" height="160" fill="#3E7F79" opacity="0.3"/></svg>
+        <img src="https://picsum.photos/seed/lumen-event2/300/375" alt="Conference keynote" loading="lazy">
       </button>
       <button class="gallery-item" data-category="wedding" data-caption="Mehndi, evening">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#2C2117"/><circle cx="150" cy="190" r="90" fill="#D98E3F" opacity="0.25"/><circle cx="150" cy="190" r="50" fill="#D98E3F" opacity="0.6"/></svg>
+        <img src="https://picsum.photos/seed/lumen-wedding3/300/375" alt="Mehndi, evening" loading="lazy">
       </button>
       <button class="gallery-item" data-category="portrait" data-caption="Family session">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#241E1A"/><circle cx="110" cy="160" r="32" fill="#B3A99E" opacity="0.5"/><circle cx="190" cy="160" r="32" fill="#B3A99E" opacity="0.7"/></svg>
+        <img src="https://picsum.photos/seed/lumen-portrait3/300/375" alt="Family session" loading="lazy">
       </button>
       <button class="gallery-item" data-category="event" data-caption="Corporate dinner">
-        <svg viewBox="0 0 300 375" fill="none"><rect width="300" height="375" fill="#271F1A"/><circle cx="90" cy="120" r="14" fill="#D98E3F"/><circle cx="150" cy="110" r="14" fill="#D98E3F"/><circle cx="210" cy="120" r="14" fill="#D98E3F"/></svg>
+        <img src="https://picsum.photos/seed/lumen-event3/300/375" alt="Corporate dinner" loading="lazy">
       </button>
     </div>
   </section>
