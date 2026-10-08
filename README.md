@@ -3,6 +3,8 @@
 **Inovegen Internship — Task 4: Final Project (Professional Responsive Web Application)**
 
 **Domain:** Web Development — Front-End
+
+
 **Author:** Laiba Aftab
 
 **Live demo:** _https://laibapafaftab-debug.github.io/lumen-studio-photography/_
