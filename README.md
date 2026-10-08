@@ -1,6 +1,7 @@
 # Lumen Studio  Photography Booking Website
 
 **Inovegen Internship — Task 4: Final Project (Professional Responsive Web Application)**
+
 **Domain:** Web Development — Front-End
 **Author:** Laiba Aftab
 
