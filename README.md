@@ -94,15 +94,18 @@ npx serve .
 
 **Desktop**
 
-<img width="1573" height="772" alt="Screenshot 2026-10-07 211317" src="https://github.com/user-attachments/assets/e13319a7-096e-4f03-9ead-14e4f03a0977" />
+<img width="1574" height="769" alt="Screenshot 2026-10-09 132503" src="https://github.com/user-attachments/assets/fa08b1bc-5eb5-4c9c-b21c-c968a772c7f0" />
+
 
 **Tablet**
 
-<img width="1036" height="709" alt="Screenshot 2026-10-07 211415" src="https://github.com/user-attachments/assets/0fb24d48-bff6-4a23-bdb8-de45ba57715a" />
+<img width="1033" height="691" alt="Screenshot 2026-10-09 132600" src="https://github.com/user-attachments/assets/fd1dc949-cb3c-442a-bef7-8002efee0ce1" />
+
 
 **Mobile**
 
-<img width="706" height="1419" alt="WhatsApp Image 2026-10-07 at 9 02 11 AM" src="https://github.com/user-attachments/assets/4c66718c-9520-4a14-ad67-9d58500bf1a8" />
+<img width="540" height="1048" alt="WhatsApp Image 2026-10-09 at 1 25 17 AM" src="https://github.com/user-attachments/assets/3775ed3c-78ac-4ff3-8d56-c590df7da13d" />
+
 
 
 
