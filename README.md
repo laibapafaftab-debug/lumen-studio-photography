@@ -87,10 +87,11 @@ npx serve .
 
 ## Notes
 
-- This is an original build — concept, copy, color system, and illustrations were created for this task rather than adapted from a template.
-- Images are custom inline SVG compositions rather than stock photos, kept visually consistent across the gallery.
+- This is an original build. The concept, copy, layout, color system and code were created for this task rather than adapted from a template.
+- The portfolio gallery uses custom inline SVG compositions. The hero photograph is not my own work. Its original photographer is unknown to me; it was found through a web search and is used here for demo purposes only.
 - Screenshots for desktop, tablet, and mobile are included in `/screenshots`, as required by the task deliverables.
-## Screenshots
+
+## Screenshorts
 
 **Desktop**
 
