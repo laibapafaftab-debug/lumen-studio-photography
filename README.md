@@ -91,7 +91,7 @@ npx serve .
 - The portfolio gallery uses custom inline SVG compositions. The hero photograph is not my own work. Its original photographer is unknown to me; it was found through a web search and is used here for demo purposes only.
 - Screenshots for desktop, tablet, and mobile are included in `/screenshots`, as required by the task deliverables.
 
-## Screenshorts
+## Screenshots
 
 **Desktop**
 
