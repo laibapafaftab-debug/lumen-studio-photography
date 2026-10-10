@@ -105,7 +105,8 @@ npx serve .
 
 **Mobile**
 
-<img width="540" height="1048" alt="WhatsApp Image 2026-10-09 at 1 25 17 AM" src="https://github.com/user-attachments/assets/3775ed3c-78ac-4ff3-8d56-c590df7da13d" />
+<img width="720" height="1533" alt="image" src="https://github.com/user-attachments/assets/fd5dea0b-441f-4817-b766-2f9a9bd1b6bf" />
+
 
 
 
